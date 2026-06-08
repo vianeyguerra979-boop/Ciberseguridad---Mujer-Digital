@@ -1,0 +1,104 @@
+body {
+    color: rgb(208, 64, 224);
+    background-color: white !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: black;
+    color: hsl(313, 95%, 48%);
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 5px solid rgb(241, 9, 202);
+}
+
+header .logo {
+    max-height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    letter-spacing: 15px;
+    font-size: 3.6rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+header p {
+    color: white;
+    font-style: italic;
+    font-size: 2.1rem;
+    margin-top: 5px;
+}
+
+
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+
+}
+
+main section {
+    background-color:  hsl(313, 95%, 48%);
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border-left: 5px solid rgb(94, 195, 12);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+main section h2 {
+    color:white;
+    margin-top: 0;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+main section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 8px solid white;
+    border-radius: 10px;
+
+}
+
+#carouselExample {
+    margin-top: 40px;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-size: 0.9rem;
+    border-top: 5px solid rgb(243, 82, 232);
+    margin-top: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+    color: rgb(222, 16, 195);
+    padding-left: 20px;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
